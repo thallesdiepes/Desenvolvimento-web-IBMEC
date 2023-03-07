@@ -32,3 +32,7 @@ referência02: https://dev.opera.com/extensions/
 referência03: https://developer.mozilla.org/pt-BR/docs/Mozilla/Firefox 
 referência04: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 relação: testar o que foi feito
+
+-----------
+
+#Protocolo proprietário da internet

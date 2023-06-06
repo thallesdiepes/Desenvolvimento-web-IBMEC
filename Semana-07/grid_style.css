@@ -1,0 +1,38 @@
+#conteiner {
+    display: grid;
+    gap: 5px;
+}
+
+#conteiner > div {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: black solid 1px;
+    padding: 3em 0;
+}
+
+#div_4, #div_05, #div_06, #div_07, #div_08{
+    display: none;
+}
+
+@media only screen and (min-width: 481px){
+    #conteiner{
+        grid-template-columns: auto auto;
+    }
+
+    #div_04, #div_5, #div_06{
+        display: block;
+    }
+}
+
+@media only screen and(min-width: 1025px){
+    #conteiner{
+        grid-template-columns: auto auto auto auto;
+        max-width: 1600px;
+        margin: auto;
+    }
+    
+    #div_07, #div_08{
+        display: block;
+    }
+}

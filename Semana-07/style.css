@@ -1,0 +1,29 @@
+div{
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 2px;
+    width: 80%;
+    margin: auto;
+    background-color: darkslateblue;
+    margin-bottom: .5em;
+}
+body > div:nth-child(3){
+    display: none;
+}
+
+@media only screen and (min-width: 481px){
+    div{
+        background-color: cadetblue;
+    }
+    
+}
+
+@media only screen and (min-width: 1025px){
+    div{
+        background-color: chocolate;
+    }
+
+    body > body > div:nth-child(3){
+        dislay: block;
+    }
+}

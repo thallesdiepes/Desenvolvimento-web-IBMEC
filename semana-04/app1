@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício semana 4</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <p>Vasco e suas decepções em 2023:
+        <strong>Pedro Raul é a maior decepção do ano </strong>.
+    </p>
+
+    <div class="box">
+        <p>Maior decepção do ano: <strong>Pedro Raul</strong>......</p>
+    </div>
+
+    <p> Outra decepção do ano é o Gallarxa, <em>que não foi bem nem no coritiba,</em> então, de certa forma, não é de espantar.</em>
+    </p>
+
+    <p>
+    Contudo, não será possível jogar um <del> bom </del> futebol em <ins>2023</ins>
+    </p>
+
+    <ol> Maiores decepçoes
+        <li>Pedro Raul</li>
+        <li>Luca Orellano</li>
+        <li>Jair</li>
+    </ol>
+
+</body>
+</html>
